@@ -1,5 +1,5 @@
 void main(){
-  void sayHello({String? firstName, String? lastName}){
+  void sayHello({String? firstName, String lastName = "Default"}){
     print('Hello $firstName $lastName');
   }
   
