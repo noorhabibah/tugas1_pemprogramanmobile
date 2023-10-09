@@ -1,26 +1,19 @@
-void main(){
-
+void main () {
+  //Create list of int
   List<int> listInt = [];
 
+  //Create list of String
   var listString = <String>[];
 
-  print(listInt);
-  print(listString);
+  var names = <String>[];
 
-  var names = <String>[
-    'Noor',
-    'Habibah',
-    'Kim',
-  ];
-
-  // names.add('Noor');
-  // names.add('Habibah');
-  // names.add('Kim');
-
+  names.add('Noor');
+  names.add('Habibah');
+  names.add('Kim');
+  
   print(names);
   print(names.length);
-
-  print(names[0]);
+   print(names[0]);
 
   names[0] = 'Bibah';
   print(names[0]);
@@ -28,5 +21,5 @@ void main(){
   names.removeAt(1);
   print(names);
   print(names[1]);
-
+  
 }
