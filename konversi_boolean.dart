@@ -1,5 +1,5 @@
 void main(){
-  var inputString = 'false';
+  var inputString = 'true';
   var inputBoolean = inputString == 'true';
 
   var StringFromBoolean = inputBoolean.toString();
